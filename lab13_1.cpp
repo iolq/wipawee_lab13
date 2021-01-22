@@ -17,3 +17,17 @@ int main(){
 	cout << "\nSorted Array:";
 	for(int i = 0; i < 10; i++) cout << a[i] << " ";	
 }
+template <typename t>
+void insertionSort(double d[]=0,int N=0){
+	int i,j,k=0;
+	for(i=0;i<N;i++){
+		k = d[i];
+		j = i-1;
+	}while(j>=0 && d[j]>k){
+		d[j+1] = d[j];
+		j = j-1;
+		
+	}d[j+1]=k;
+	
+
+}
